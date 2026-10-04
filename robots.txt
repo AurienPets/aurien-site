@@ -1,5 +1,8 @@
-# Site em preparação: os documentos legais ainda não estão vigentes.
-# Exceção necessária à verificação do app-ads.txt pelo AdMob.
+# O site institucional e documentos em preparação permanecem sem indexação.
+# A política vigente do Validi e o app-ads.txt podem ser rastreados.
 User-agent: *
 Allow: /app-ads.txt
+Allow: /privacidade/validi/
+Allow: /styles.css
+Allow: /assets/marca/
 Disallow: /
