@@ -1,5 +1,6 @@
-# Site em preparação: os documentos legais ainda não estão vigentes.
-# Exceção necessária à verificação do app-ads.txt pelo AdMob.
+# Preparação para publicação da política de privacidade do Validi.
+# As outras páginas legais continuam em revisão.
 User-agent: *
 Allow: /app-ads.txt
+Allow: /privacidade/validi/
 Disallow: /
