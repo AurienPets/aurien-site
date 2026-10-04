@@ -1,0 +1,3 @@
+# Site em preparação: os documentos legais ainda não estão vigentes.
+User-agent: *
+Disallow: /
