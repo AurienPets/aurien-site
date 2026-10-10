@@ -437,3 +437,17 @@ ul{margin:0; padding:0; list-style:none}
 .previa-selo b{color:var(--accent); font-weight:800}
 @media (max-width:520px){ .previa-selo{font-size:10px; padding:6px 10px; left:10px; bottom:10px} }
 @media print{ .previa-selo{display:none} }
+
+/* Redes sociais: ícones em superfícies discretas, com alvo confortável. */
+.redes{display:flex; flex-wrap:wrap; gap:12px; margin-top:16px}
+.rodape .redes__link{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:52px; height:52px; padding:0; border-radius:12px;
+  border:1px solid var(--border);
+  background:rgba(162,139,244,.08); color:var(--accent);
+  transition:background var(--transicao), border-color var(--transicao), color var(--transicao);
+}
+.rodape .redes__link:hover, .rodape .redes__link:focus-visible{
+  background:rgba(162,139,244,.16); border-color:var(--accent);
+  color:var(--text);
+}
